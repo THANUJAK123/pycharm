@@ -1,0 +1,7 @@
+#f=open("hi.txt","x")
+#f.close()
+f=open("hi.txt","w")
+f.write("hello everyone gud evng")
+f.close()
+f=open("hi.txt","r")
+print(f.read())

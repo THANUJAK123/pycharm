@@ -1,0 +1,19 @@
+dictt={"name":"thanu",
+       "study":"btech",
+       "hobby":"music",
+       "dob":"29-6-2000",
+       "fruits":["orange","papaya"]}
+print(dictt)
+print(type(dictt))
+print(len(dictt))
+print(dictt["name"])
+dictt["name"]="rani"
+print(dictt)
+x=dictt.get("fruits")
+print(x)
+dictt.update({"name":"bharath"})
+print(dictt)
+dictt["colour"]="black"
+print(dictt)
+dictt.pop("dob")
+print(dictt)
